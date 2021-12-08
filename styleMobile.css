@@ -63,7 +63,7 @@ h1{
    height: 70%;
 }
 .p1{
-    color: darkgray;
+    color:rgb(48, 49, 49);
     margin: 5px;
     padding-left: 12px;
 }
@@ -73,14 +73,14 @@ h1{
     padding-left: 12px;
 }
 .p3{
-    color: red;
+    color: rgb(70, 68, 68);
     margin: 5px;
     padding-left: 12px;
 }
 h3{
     padding-left: 12px;
 }
-.de{
+.card{
 
 display: flex; 
   flex-direction: column;
@@ -90,7 +90,7 @@ display: flex;
     .container{
         margin: 40px;
     }
-    .de{
+    .card{
         display: flex;
         flex-direction: row;
     }
