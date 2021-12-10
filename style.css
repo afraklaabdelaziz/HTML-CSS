@@ -11,7 +11,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;;
+        height: 100vh;
     }
     .main{
         display: flex;
@@ -25,7 +25,7 @@
         border-radius: 5%;
         padding-left: 40px;
         padding-top: 20px;
-        margin-top: 50px;
+        margin-top: 30px;
         width: 350px;
     }
     .propriete{
@@ -39,10 +39,21 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    .rayon{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px; 
+    }
+    .rayo{
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+    }
     img {
         width: 50%;
-        height: 70px;
-        margin-top: 20px;
+        height: 120px;
+        margin-top: 10px;
+        margin-right:30px ;
     
     }
     input{
@@ -80,7 +91,7 @@
     .check{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin-top: 15px;
     }
     .vend{
         margin-left: 23px;
@@ -91,11 +102,14 @@
     }
     p{
         color: white;
+        margin-top: 15px;
+        height: 50px;
+        margin-bottom: -34px
     }
     .botton{
         width: 130px;
         height: 30px;
-        margin: 20px 65px;
+        margin: 3px 129px;
         background-color: #EF824C;
         font-weight: bold;
         color: white;
@@ -108,63 +122,81 @@
         }
         img{
             display:flex;
-            width: 100px;
-            height: 70px;
+            width: 120px;
+            height: 120px;
             margin-bottom: 550px;
         }
         form{
             display: flex;
             width: 1200px;
-            margin: 0px;
+            height: 320px;
         }
        .chambre{
         padding-bottom: 56px;
         margin:0px 0px;
         padding-right: 85px;
-        width: 293px;
-        height: 54px;
+        height: 115px;
        }
        select{
        }
        .propriete{
            display: flex;
            padding-right: 85px;
-           height: 59;
-           width: 290;
+           height: 60px;
+           width: 290px;
+           margin-right: 50px;
        }
        .prix{
            display: flex;
         padding-bottom: 56px;
        
         margin:0px 0px;
-        height: 59;
-           width: 290;
+        height: 59px;
+           width: 290px;
        }
        .max{
-        padding-right: 85x;
+        padding-right: 30px;
+
        
        }
        .check{
           margin: 100px;
           margin-left: 100px;
+          margin-top: 149px;
        }
        .pri{
            width: 180px;
            padding-right:  85px;
+           margin-right: 26px;
+           margin-left: 31px;
     
        }
+       .rayon{
+           display: flex;
+           padding-right: 733px;
+           margin-top: 100px;
+           height: 80px;
+           margin-left: -700px;
+       }
+       .rayo{
+        margin-left: -176px;
+       }
+       .rayoLA{
+        width: 148px;
+        margin-left: -173px;
+       }
     .chamb{
-        height: 50px;
+        height: 60px;
     }
     .prix{
         width: 200px;
-        height: 106px;
+        height: 48px;
     }
     .check{
         display: inline-flex;
         flex-direction: row;
         margin: 94px;
-        margin-left: -820px;
+        margin-left: -651px;
         height: 50px;
         margin-top: 170px;
         
@@ -183,6 +215,7 @@
     p{
         width: 200px;
         margin-top: 50px;
+        margin-left: -330px;
     }
     .vend{
         width: 20px;
