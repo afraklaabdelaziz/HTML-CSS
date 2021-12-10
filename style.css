@@ -1,0 +1,194 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    body {
+        
+        background-image: url('img/back.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+    }
+    form {
+        background-color: rgba(2, 1, 1, 0.404);
+        border-radius: 5%;
+        padding-left: 40px;
+        padding-top: 20px;
+        margin-top: 50px;
+        width: 350px;
+    }
+    .propriete{
+        display: flex;
+        flex-direction: column;
+        padding-right: 140px;
+        
+    }
+    .chambre{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    img {
+        width: 50%;
+        height: 70px;
+        margin-top: 20px;
+    
+    }
+    input{
+    background-color: white;
+    }
+    select{
+        background-color: white; 
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+    
+    } 
+    label{
+        /* padding-left: 30px; */
+        color: white;
+    }
+    option{
+        background-color: white;
+    }
+    .prix{
+       display: flex;
+       margin-top: 20px;
+    }
+    .pri{
+        width: 100px;
+        height: 30px;
+        margin-top: 10px;
+    }
+    .chamb{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    }
+    
+    .check{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .vend{
+        margin-left: 23px;
+    
+    }
+    .despo{
+        margin-top: 20px;
+    }
+    p{
+        color: white;
+    }
+    .botton{
+        width: 130px;
+        height: 30px;
+        margin: 20px 65px;
+        background-color: #EF824C;
+        font-weight: bold;
+        color: white;
+        border-radius: 5%;
+    }
+    @media screen and (min-width:600px) {
+        .main{
+            display:flex;
+            flex-direction: row;
+        }
+        img{
+            display:flex;
+            width: 100px;
+            height: 70px;
+            margin-bottom: 550px;
+        }
+        form{
+            display: flex;
+            width: 1200px;
+            margin: 0px;
+        }
+       .chambre{
+        padding-bottom: 56px;
+        margin:0px 0px;
+        padding-right: 85px;
+        width: 293px;
+        height: 54px;
+       }
+       select{
+       }
+       .propriete{
+           display: flex;
+           padding-right: 85px;
+           height: 59;
+           width: 290;
+       }
+       .prix{
+           display: flex;
+        padding-bottom: 56px;
+       
+        margin:0px 0px;
+        height: 59;
+           width: 290;
+       }
+       .max{
+        padding-right: 85x;
+       
+       }
+       .check{
+          margin: 100px;
+          margin-left: 100px;
+       }
+       .pri{
+           width: 180px;
+           padding-right:  85px;
+    
+       }
+    .chamb{
+        height: 50px;
+    }
+    .prix{
+        width: 200px;
+        height: 106px;
+    }
+    .check{
+        display: inline-flex;
+        flex-direction: row;
+        margin: 94px;
+        margin-left: -820px;
+        height: 50px;
+        margin-top: 170px;
+        
+    }
+    .botton{
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+    .despo{
+        display: flex;
+        flex-direction: row;
+        margin: 40px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    p{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .vend{
+        width: 20px;
+        margin-top: 2px;
+    }
+    .boton{
+        height: 0px;
+    }
+    }

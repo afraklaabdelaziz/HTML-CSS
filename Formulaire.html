@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <img src="img/logo.png" alt="notre logo">
+        <form>
+            <div class="propriete">
+                <label>type de propriété</label>
+                <select>
+                    <option label="Villa"></option>
+                    <option>Appartement</option>
+                </select>
+            </div>
+            </select>
+            <div class="chambre">
+                <label> nombre de chambres</label>
+                <input class="chamb" type="number" min="0" max="20">
+            </div>
+            <div class="prix">
+                <div class="max">
+                    <label>prix-min</label>
+                    <input class="pri" type="number" min="0" max="230000">
+                </div>
+                <div>
+                    <label class="min">prix-max</label>
+                    <input class="pri" type="number" min="0" max="2000000000">
+                </div>
+
+            </div>
+            <div class="check">
+                <p> choisir votre choix </p>
+                <div class="despo">
+                    <label>vendre</label>
+                    <input class="vend" type="checkbox">
+                </div>
+                <div class="despo">
+                    <label>disponible</label>
+                    <input class="vend" type="checkbox">
+                </div>
+            </div>
+            <div class="boton">
+                <input class="botton" type="submit" value="Recherche">
+            </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
