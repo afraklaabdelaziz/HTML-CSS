@@ -94,7 +94,7 @@
         margin-top: 15px;
     }
     .vend{
-        margin-left: 23px;
+        margin-left: 20px;
     
     }
     .despo{
@@ -121,7 +121,8 @@
             flex-direction: row;
         }
         img{
-            display:flex;
+            position:absolute;
+            top: 70px;
             width: 120px;
             height: 120px;
             margin-bottom: 550px;
@@ -130,14 +131,13 @@
             display: flex;
             width: 1200px;
             height: 320px;
+            margin: 0px auto;
         }
        .chambre{
         padding-bottom: 56px;
         margin:0px 0px;
         padding-right: 85px;
         height: 115px;
-       }
-       select{
        }
        .propriete{
            display: flex;
@@ -218,8 +218,11 @@
         margin-left: -330px;
     }
     .vend{
-        width: 20px;
-        margin-top: 2px;
+        height: auto;
+        margin-left: 30px;
+    }
+    .des{
+        margin-left: 10px;
     }
     .boton{
         height: 0px;
