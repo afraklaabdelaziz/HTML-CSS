@@ -8,7 +8,6 @@ nav{
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-bottom: 30px;
 }
 .menu li a{
     text-decoration: none;
@@ -100,8 +99,5 @@ h3{
     nav img{
        width: 100%;
        height: 75px;
-    }
-    .de{
-        justify-content: center;
     }
     }

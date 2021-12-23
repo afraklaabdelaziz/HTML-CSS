@@ -14,8 +14,8 @@ nav img {
    width: 100px;  
 }
 .jeu{
-    width: 90%;
-    height: 70%;
+    width: 300px;
+    height: 500px;
     margin-top: 10px;
     border: solid 1px black;
     margin-bottom: 10px;
@@ -34,7 +34,6 @@ nav img {
     display: inline-block;
     text-decoration: none;
     padding-top: 10px;
-    margin: 0px;
 }
 .home li{
     display: inline-flex;
@@ -85,8 +84,9 @@ h2{
 
 display: flex; 
   flex-direction: column;
-  align-items: center;
+   align-items: center;
 }
+
 @media screen and (min-width: 600px) {
     .container{
         margin: 40px;
@@ -94,18 +94,16 @@ display: flex;
     .card{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     nav{
         display:flex;
         flex-direction: row;
         justify-content: left;
-        align-items: center;
-        margin-bottom: 30px;
+
     }
     .menu li{
-        
-        float: left;
-        margin-left: 20px;
+    margin-left: 20px;
 }
 nav img{
     width: 200px;
@@ -114,6 +112,27 @@ nav img{
     margin: 10px;
 }
 .jeu{
-    margin: 20px;
+    /* width: 90%;
+} */
+}
+@media screen and (min-width: 768px){
+        .card{
+            gap: 20px;
+        }
+    .jeu{
+        /* width: 45%; */
+        margin: 0px;
+    }
+}
+@media screen and (min-width:992px){
+    .card{
+        gap: 0px;
+        justify-content:space-between;
+    }
+    .jeu{
+        /* width: 23%; */
+        margin: 0px;
+    }
+    
 }
 }
